@@ -1,0 +1,247 @@
+
+.item{
+ background-image: url("../img/top-bg-1.jpg");
+ text-align: center;
+ background-size: cover;
+ width: 100vw;
+ margin: 0 auto;
+ padding: 60px 0px;
+ height: 80vh;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    width: 400px;
+   /* height: 350px;*/
+    background-color: #ffffff9c;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 18px;
+    text-align: center;
+    border-radius: 7px;
+}
+.box i{
+    font-size: 54px;
+}
+.box h1,p{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: black;
+    padding: 5px;
+
+}
+.box p{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+input[type="search"],input[type="email"]{
+    border:1px solid black;
+    height: 45px;
+    width: 270px;
+    outline: none;
+    
+}
+#button{
+    
+    width: 125px;
+    height: 45px;
+    border: none;
+    background-color:deepskyblue;
+    color: white;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    text-transform: capitalize;
+    outline: none;
+}
+::placeholder{
+    padding-left: 15px;
+    text-transform: capitalize;
+    color:black;
+    font-size: 17px;
+}
+
+.item2{
+   background-image: url("../img/top-bg-2.jpg");
+}
+.item3{
+    background-image: url("../img/top-bg-3.jpg");
+}
+/******************************2nd section**************/
+.banner{
+    background-color:#ddd;
+    padding: 50px 0px;
+   
+}
+ .img img{
+     width: 100%;
+     border: 6px solid #fff;
+     border-radius: 100%;
+ }
+.para h1{
+    font-size: 30px;
+    font-weight: 600;
+     color:#2c343B;
+}
+.para p{
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+#row{
+    margin-top: 35px;
+}
+/*******************************************banner******************/
+
+.banner2{
+    background-color: #3f3f67;
+    text-align: center;
+    padding: 50px 0px;
+}
+.center h1{
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.center h5{
+    color: white;
+    font-size: 20px;
+    padding: 5px 25px;
+    line-height: 29px;
+}
+.plan{
+    border-radius: 20px;
+    background-color: rgb(155, 129, 129);
+    
+    
+    
+}
+.plan2{
+    background-color: teal;
+    
+}
+.plan3{
+    background-color:dodgerblue;
+}
+.plan h1{
+    background-color: olive;
+    padding: 15px 0px;
+    border-radius: 15px 15px 0px 0px;
+} 
+#foo{
+    border-radius: 0px 0px 15px 15px;
+    background-color: white;
+    transition: all 0.4s;
+    
+}
+#foo2{
+    background-color: white;
+    text-transform: capitalize;
+}
+#foo:hover{
+    background-color: tomato;
+}
+.plan p{
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 28px;
+    padding: 12px;
+}
+/*******************testimonial***************/
+.test{
+    background-color: #ddd;
+    padding: 50px 0px;
+    
+     
+}
+.testmonial{
+    width: 500px;
+    margin: 0 auto;
+   overflow: hidden;
+   box-sizing: border-box
+    
+    
+}
+.testmonial h1{
+    text-transform: capitalize;
+}
+.testmonial h5{
+    line-height: 28px;
+    font-size: 17px;
+    padding: 5px;
+    
+    
+}
+.testmonial img{
+    border-radius: 100%;
+    border: 5px solid white;
+    
+
+}
+.item4,.item5,.item6{
+    background: none;
+    width: 100vw;
+    padding: 15px;
+    height: 100vh;
+}
+.item5{
+    background: none;
+}
+.item6{
+    background: none;
+}
+/******************************footer*************************/
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: black;
+    
+}
+#name,#subject{
+    height: 50px;
+    margin-top: 10px;
+}
+#youremail{
+    width: 100%;
+}
+#area{
+    margin-top: 10px;
+    height: 175px;
+}
+#sub{
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:crimson;
+    color: white;
+    border: none;
+    font-size: 20px;
+    outline: none;
+
+    
+}
+.social-icon{
+    text-align: center;
+    color:white;
+}
+.social-icon .fa{
+    padding: 15px;
+    font-size: 21px;
+}
+
+@media only screen and (max-width:700px){
+   
+    .testmonial{
+        width: 300px;
+    }
+    .mobile{
+      display: none;
+    }
+   
+    
+}
+
